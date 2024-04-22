@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="vi">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style7.css">
+        <title>Quản lý đồ án tốt nghiệp</title>
+    </head>
+    <body>
+        <div class="sidebar" id="sidebar">
+            <ul>
+                <li><a href="index.html">Trang chủ</a></li>
+                <li><a href="2.html" >Quản lý khoa</a></li>
+                <li><a href="3.html" >Quản lý chuyên ngành</a></li>
+                <li><a href="4.html" >Quản lý Hệ đào tạo</a></li>
+                <li><a href="5.html" >Quản lý Niên khoá</a></li>
+                <li><a href="6.html" >Quản lý Lớp</a></li>
+                <li><a href="7.html" >Quản lý Giáo viên</a></li>
+                <li><a href="8.html" >Quản lý Hội đồng</a></li>
+                <li><a href="9.html" >Quản lý sinh viên</a></li>
+                <li><a href="10.html" >Danh sách đồ án</a></li>
+                <li><a href="11.html" >Quản lý</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <button onclick="add()">Thêm mới</button>
+            <div class="search">
+                <input type="search" id="chonkhoa" placeholder="Chọn khoa">
+                <input type="search" id="chonchuyennganh" placeholder="Chọn chuyên ngành">
+                <button id="search">Tìm kiếm</button>
+                <button id="reset">Làm mới</button>
+            </div>
+            <h1>Quản lý giáo viên</h1>
+            <table id="teachertable">
+                <tr>
+                    <th>Hình ảnh</th>
+                    <th>Tên giáo viên</th>
+                    <th>Thông tin</th>
+                    <th>Khoa</th>
+                    <th>Chuyên ngành</th>
+                    <th>Thao tác</th>
+                </tr>
+                <tr>
+                    <td><img src="buinhu.png"></td>
+                    <td>Bùi Thị Như</td>
+                    <td>
+                        <ul>
+                            <li>0995496181</li>
+                            <li>buinhu@gmail.com</li>
+                            <li>Thanh Bính-Thanh Hà-Hải Dương</li>
+                            <li>Đại học Công nghệ Giao thông Vận tải</li>
+                            <li>Ngày sinh: 1986-03-12</li>
+                            <li>Trí tuệ nhân tạo</li>
+                        </ul>
+                    </td>
+                    <td>Công nghệ thông tin</td>
+                    <td>Hệ thống thông tin</td>
+                    <td>
+                        <button onclick="delete()">Xoá</button>
+                        <button onclick="edit()">Sửa</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td><img src="nguyentuan.png"></td>
+                    <td>Nguyễn Hữu Tuân</td>
+                    <td>
+                        <ul>
+                            <li>09762253464</li>
+                            <li>Tuan@gmail.com</li>
+                            <li>Hoàng Mai-Hà Nội</li>
+                            <li>Đại học Công nghệ Giao thông Vận tải</li>
+                            <li>Ngày sinh: 2017-12-15</li>
+                            <li>Kiến trúc máy tính</li>
+                        </ul>
+                    </td>
+                    <td>Công nghệ thông tin</td>
+                    <td>Hệ thống thông tin</td>
+                    <td>
+                        <button onclick="delete()">Xoá</button>
+                        <button onclick="edit()">Sửa</button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>

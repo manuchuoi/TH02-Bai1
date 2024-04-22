@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+  
+.sidebar {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #333;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+.sidebar ul li {
+    padding: 10px;
+    border-bottom: #747474 solid 1px;
+}
+
+.sidebar ul li:hover {
+    background-color: #747474;
+}
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+}
+  
+.content {
+    margin-left: 220px;
+    padding: 20px;
+}
+.content h1{
+    background-color: #4CAF50;
+    padding: 10px;
+    color: #ffffff;
+}
+  
+button {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #45a049;
+}
+  
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+  
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+  
+th {
+    background-color: #f2f2f2;
+}
+  
+td .img {
+    width: 50px;
+    height: 50px;
+    background-color: #ccc;
+    border-radius: 50%;
+}
+  
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+  
+.teachertable li {
+    margin-bottom: 10px;
+}
